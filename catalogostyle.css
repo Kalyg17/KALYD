@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+img{
+    width: 150px;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(222, 227, 236);
+    width: 100%;
+    border-bottom-width: 5px;
+    border-bottom-style: ridge;
+}
+ header ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: 'EB Garamond', serif;
+    color: rgb(10, 10, 57);
+ }
+ header ul li{
+    margin: 10px;
+ }
+ a{
+    text-decoration: none;
+ }
+ .diseñosdisponibles{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color:rgb(67, 83, 92);
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+ }
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+}
+.caja1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.caja2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.amatista{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+.amatista-img-top{
+    display: flex;
+    margin-top: 30px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+.amatista-img-top:hover{
+    transform: scale(1.5);
+}
+.amatista-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    padding: -20%;
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+}
+.amatista-text{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+.jade{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+.jade-img-top{
+    display: flex;
+    margin-top: 30px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+.jade-img-top:hover{
+    transform: scale(1.5);
+}
+.jade-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    padding: -20%;
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+}
+.jade-text{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+.ot{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+.ot-img-top{
+    display: flex;
+    margin-top: 30px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+.ot-img-top:hover{
+    transform: scale(1.5);
+}
+.ot-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    padding: -20%;
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+}
+.ot-text{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.pvb{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+.pvb-img-top{
+    display: flex;
+    margin-top: 30px;
+    width: 180px;
+    height: 150px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+.pvb-img-top:hover{
+    transform: scale(1.5);
+}
+.pvb-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    padding: -20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+
+}
+.pvb-text{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+.pvb-jade{
+    display: flex;
+    justify-content: center;
+}
+.opalo{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+.opalo-img-top{
+    display: flex;
+    margin-top: 30px;
+    width: 180px;
+    height: 150px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+.opalo-img-top:hover{
+    transform: scale(1.5);
+}
+.opalo-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    padding: -20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+}
+.opalo-text{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.obsidiana{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+.obsidiana-img-top{
+    display: flex;
+    margin-top: 30px;
+    width: 180px;
+    height: 150px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+.obsidiana-img-top:hover{
+    transform: scale(1.5);
+}
+.obsidiana-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    padding: -20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+}
+.obsidiana-text{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+footer{
+    display: flex;
+    justify-content: start;
+}

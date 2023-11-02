@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+img{
+    width: 150px;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(222, 227, 236);
+    border-bottom-width: 5px;
+    border-bottom-style: ridge;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: 'EB Garamond', serif;
+    color: rgb(10, 10, 57);
+}
+
+header ul li{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'EB Garamond', serif;
+    color: rgb(67, 83, 92);
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.tiposdehilo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'EB Garamond', serif;
+}
+
+.hilo1{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.hilo1-img{
+    display: flex;
+    margin-top: 10px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+
+.hilo1-img:hover{
+    transform: scale(1.5);
+}
+
+.form-check1{
+    margin-bottom:.125rem;
+    padding-left: 40%;
+}
+
+.card-title1{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+    padding: -20% 
+}
+
+.hilo2{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.hilo2-img{
+    display: flex;
+    margin-top: 10px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+
+.hilo2-img:hover{
+    transform: scale(1.5);
+}
+
+.form-check2{
+    margin-bottom:.125rem;
+    padding-left: 40%;
+}
+
+.card-title2{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+    padding: -20% 
+}
+
+.hilo3{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.hilo3-img{
+    display: flex;
+    margin-top: 10px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+
+.hilo3-img:hover{
+    transform: scale(1.5);
+}
+
+.form-check3{
+    margin-bottom:.125rem;
+    padding-left: 40%;
+}
+
+.card-title3{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+    padding: -20% 
+}
+
+h2{
+    color: rgb(67, 83, 92);
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+}
+
+.piedras{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.piedrajade{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.piedrajade-img{
+    display: flex;
+    margin-top: 10px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+
+.piedrajade-img:hover{
+    transform: scale(1.5);
+}
+
+.piedrajade-check{
+    margin-bottom:.125rem;
+    padding-left: 30%;
+}
+
+.piedrajade-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+    padding: -20% 
+}
+
+.piedraob{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.piedraob-img{
+    display: flex;
+    margin-top: 10px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+
+.piedraob-img:hover{
+    transform: scale(1.5);
+}
+
+.piedraob-check{
+    margin-bottom:.125rem;
+    padding-left: 30%;
+}
+
+.piedraob-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    padding: -20%;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+}
+
+.piedraot{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.piedraot-img{
+    display: flex;
+    margin-top: 10px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+
+.piedraot-img:hover{
+    transform: scale(1.5);
+}
+
+.piedraot-check{
+    margin-bottom:.125rem;
+    padding-left: 40%;
+}
+
+.piedraot-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+    padding: -20% 
+}
+    
+
+.piedraop{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.piedraop-img{
+    display: flex;
+    margin-top: 10px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+
+.piedraop-img:hover{
+    transform: scale(1.5);
+}
+
+.piedraop-check{
+    margin-bottom:.125rem;
+    padding-left: 30%;
+}
+
+.piedraop-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+    padding: -20% 
+}
+    
+
+
+.piedravb{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.piedravb-img{
+    display: flex;
+    margin-top: 10px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+
+.piedravb-img:hover{
+    transform: scale(1.5);
+}
+
+.piedravb-check{
+    margin-bottom:.125rem;
+    padding-left: 45%;
+}
+
+.piedravb-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content:center;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+    margin-left: 15%; 
+}
+
+.piedravn{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.piedravn-img{
+    display: flex;
+    margin-top: 10px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+
+.piedravn-img:hover{
+    transform: scale(1.5);
+}
+
+.piedravn-check{
+    margin-bottom:.125rem;
+    padding-left: 30%;
+}
+
+.piedravn-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+    padding: -20% 
+}
+
+.dige1{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.dige1-img{
+    display: flex;
+    margin-top: 10px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+
+.dige1-img:hover{
+    transform: scale(1.5);
+}
+
+.dige1-check{
+    margin-bottom:.125rem;
+    padding-left: 40%;
+}
+
+.dige1-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+    padding: -20% 
+}
+
+.dige2{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.dige2-img{
+    display: flex;
+    margin-top: 10px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+
+.dige2-img:hover{
+    transform: scale(1.5);
+}
+
+.dige2-check{
+    margin-bottom:.125rem;
+    padding-left: 45%;
+}
+
+.dige2-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+    padding: -20% 
+}
+
+.dige3{
+    display: flex;
+    border-style: ridge;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border-width: 5px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.dige3-img{
+    display: flex;
+    margin-top: 10px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+
+.dige3-img:hover{
+    transform: scale(1.5);
+}
+
+.dige3-check{
+    margin-bottom:.125rem;
+    padding-left: 45%;
+}
+
+.dige3-title{
+    color: rgb(67, 83, 92);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+    padding: -20% 
+}
+
+.dige{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer{
+    display: flex;
+    justify-content: start;
+}
