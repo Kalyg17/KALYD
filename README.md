@@ -1,2 +1,0 @@
-# KALYD
-KALYD
